@@ -443,10 +443,17 @@ public class LauncherPreviewRenderer implements Callable<Bitmap> {
                 PreviewContext previewContext = null;
                 if (mMigrated) {
                     previewContext = new PreviewContext(mContext, mIdp);
-                    LauncherAppState appForPreview = new LauncherAppState(
-                            previewContext, null /* iconCacheFileName */);
-                    fetcher = new WorkspaceItemsInfoFromPreviewFetcher(appForPreview);
-                    MODEL_EXECUTOR.execute(fetcher);
+                    try {
+                        LauncherAppState appForPreview = new LauncherAppState(
+                                previewContext, null /* iconCacheFileName */);
+                        fetcher = new WorkspaceItemsInfoFromPreviewFetcher(appForPreview);
+                        MODEL_EXECUTOR.execute(fetcher);
+                    } catch (IllegalStateException e) {
+                Log.d(TAG, "Error populating grid items preview", e);
+                        fetcher = new WorkspaceItemsInfoFetcher();
+                        LauncherAppState.getInstance(mContext).getModel().enqueueModelUpdateTask(
+                                (LauncherModel.ModelUpdateTask) fetcher);
+                    }
                 } else {
                     fetcher = new WorkspaceItemsInfoFetcher();
                     LauncherAppState.getInstance(mContext).getModel().enqueueModelUpdateTask(
