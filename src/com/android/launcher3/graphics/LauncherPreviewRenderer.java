@@ -539,16 +539,6 @@ public class LauncherPreviewRenderer implements Callable<Bitmap> {
                 }
             }
 
-            // Add first page QSB
-            if (Utilities.showQSB(this)) {
-                View qsb = mHomeElementInflater.inflate(
-                        R.layout.search_container_workspace, mWorkspace, false);
-                CellLayout.LayoutParams lp =
-                        new CellLayout.LayoutParams(0, 0, mWorkspace.getCountX(), 1);
-                lp.canReorder = false;
-                mWorkspace.addViewToCellLayout(qsb, 0, R.id.search_container_workspace, lp, true);
-            }
-
             measureView(mRootView, mDp.widthPx, mDp.heightPx);
             dispatchVisibilityAggregated(mRootView, true);
             measureView(mRootView, mDp.widthPx, mDp.heightPx);
