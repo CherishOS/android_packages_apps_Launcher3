@@ -227,7 +227,9 @@ public class DepthController implements StateHandler<LauncherState>,
 
         if (supportsBlur) {
             final int blur;
-            if (mLauncher.isInState(LauncherState.NORMAL)) {
+            final boolean disable = Utilities.disableAllAppsBlur(mLauncher);
+            if (mLauncher.isInState(LauncherState.NORMAL) ||
+                    (mLauncher.isInState(LauncherState.ALL_APPS) && disable)) {
                 blur = 0;
             } else {
                 blur = (int) (mDepth * mMaxBlurRadius);

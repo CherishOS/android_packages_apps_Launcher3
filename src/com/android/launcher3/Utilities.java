@@ -672,6 +672,10 @@ public final class Utilities {
         return slop * slop;
     }
 
+    public static boolean disableAllAppsBlur(Context context) {
+        return context.getResources().getBoolean(R.bool.disable_app_drawer_blur);
+    }
+
     private static class FixedSizeEmptyDrawable extends ColorDrawable {
 
         private final int mSize;

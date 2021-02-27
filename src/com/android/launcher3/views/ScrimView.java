@@ -159,8 +159,8 @@ public class ScrimView<T extends Launcher> extends View implements Insettable, O
         super(context, attrs);
         mLauncher = Launcher.cast(Launcher.getLauncher(context));
         mWallpaperColorInfo = WallpaperColorInfo.INSTANCE.get(context);
-        int scrimColorResId = BlurUtils.supportsBlursOnWindows() ? R.attr.allAppsScrimColor
-                : R.attr.allAppsScrimBlurDisabledColor;
+        int scrimColorResId = BlurUtils.supportsBlursOnWindows() && !Utilities.disableAllAppsBlur(context)
+                ? R.attr.allAppsScrimColor : R.attr.allAppsScrimBlurDisabledColor;
         mEndScrim = Themes.getAttrColor(context, scrimColorResId);
         mIsScrimDark = ColorUtils.calculateLuminance(mEndScrim) < 0.5f;
 
