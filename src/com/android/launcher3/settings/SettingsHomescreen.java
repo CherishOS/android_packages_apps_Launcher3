@@ -16,7 +16,7 @@
 
 package com.android.launcher3.settings;
 
-import static com.pixeldust.launcher.OverlayCallbackImpl.KEY_ENABLE_MINUS_ONE;
+import static com.cherish.launcher.OverlayCallbackImpl.KEY_ENABLE_MINUS_ONE;
 
 import android.app.Activity;
 import android.app.DialogFragment;
@@ -34,7 +34,7 @@ import com.android.launcher3.R;
 import com.android.launcher3.Utilities;
 import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.graphics.GridOptionsProvider;
-import com.android.launcher3.pixeldust.PixeldustUtils;
+import com.android.launcher3.cherish.CherishUtils;
 import com.android.launcher3.uioverrides.plugins.PluginManagerWrapper;
 import com.android.launcher3.util.SecureSettingsObserver;
 
@@ -155,7 +155,7 @@ public class SettingsHomescreen extends Activity
             switch (preference.getKey()) {
                 case SUGGESTIONS_KEY:
                     // Show if Device Personalization Services is present.
-                    return PixeldustUtils.isPackageEnabled(getActivity(), DPS_PACKAGE);
+                    return CherishUtils.isPackageEnabled(getActivity(), DPS_PACKAGE);
                 case KEY_ENABLE_MINUS_ONE:
                     mShowGoogleAppPref = preference;
                     updateIsGoogleAppEnabled();

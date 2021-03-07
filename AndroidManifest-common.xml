@@ -259,7 +259,7 @@
         </activity>
 
         <activity
-            android:name="com.android.launcher3.pixeldust.trust.TrustAppsActivity"
+            android:name="com.android.launcher3.cherish.trust.TrustAppsActivity"
             android:label="@string/trust_apps_manager_name"
             android:theme="@android:style/Theme.DeviceDefault.Settings"
             android:autoRemoveFromRecents="true" />

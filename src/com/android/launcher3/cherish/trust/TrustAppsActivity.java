@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.pixeldust.trust;
+package com.android.launcher3.cherish.trust;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -37,14 +37,14 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.android.launcher3.LauncherAppState;
 import com.android.launcher3.R;
 import com.android.launcher3.Utilities;
-import com.android.launcher3.pixeldust.PixeldustUtils;
-import com.android.launcher3.pixeldust.trust.db.TrustComponent;
-import com.android.launcher3.pixeldust.trust.db.TrustDatabaseHelper;
+import com.android.launcher3.cherish.CherishUtils;
+import com.android.launcher3.cherish.trust.db.TrustComponent;
+import com.android.launcher3.cherish.trust.db.TrustDatabaseHelper;
 
 import java.util.List;
 
-import static com.android.launcher3.pixeldust.trust.db.TrustComponent.Kind.HIDDEN;
-import static com.android.launcher3.pixeldust.trust.db.TrustComponent.Kind.PROTECTED;
+import static com.android.launcher3.cherish.trust.db.TrustComponent.Kind.HIDDEN;
+import static com.android.launcher3.cherish.trust.db.TrustComponent.Kind.PROTECTED;
 
 public class TrustAppsActivity extends Activity implements
         TrustAppsAdapter.Listener,
@@ -75,7 +75,7 @@ public class TrustAppsActivity extends Activity implements
         mLoadingView.setVisibility(View.VISIBLE);
         mProgressBar = findViewById(R.id.hidden_apps_progress_bar);
 
-        final boolean hasSecureKeyguard = PixeldustUtils.hasSecureKeyguard(this);
+        final boolean hasSecureKeyguard = CherishUtils.hasSecureKeyguard(this);
         mAdapter = new TrustAppsAdapter(this, hasSecureKeyguard);
         mDbHelper = TrustDatabaseHelper.getInstance(this);
 

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.pixeldust.launcher;
+package com.cherish.launcher;
 
 import com.android.launcher3.Launcher;
 import com.android.systemui.plugins.shared.LauncherOverlayManager;
 
-public class PixeldustLauncher extends Launcher {
+public class cherishLauncher extends Launcher {
 
     @Override
     protected LauncherOverlayManager getDefaultOverlay() {

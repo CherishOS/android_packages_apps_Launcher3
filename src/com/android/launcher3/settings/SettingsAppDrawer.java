@@ -31,8 +31,8 @@ import android.text.TextUtils;
 import com.android.launcher3.LauncherFiles;
 import com.android.launcher3.R;
 import com.android.launcher3.Utilities;
-import com.android.launcher3.pixeldust.PixeldustUtils;
-import com.android.launcher3.pixeldust.trust.TrustAppsActivity;
+import com.android.launcher3.cherish.CherishUtils;
+import com.android.launcher3.cherish.trust.TrustAppsActivity;
 import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.graphics.GridOptionsProvider;
 import com.android.launcher3.uioverrides.plugins.PluginManagerWrapper;
@@ -151,7 +151,7 @@ public class SettingsAppDrawer extends Activity
             switch (preference.getKey()) {
                 case KEY_TRUST_APPS:
                     preference.setOnPreferenceClickListener(p -> {
-                        PixeldustUtils.showLockScreen(getActivity(),
+                        CherishUtils.showLockScreen(getActivity(),
                                 getString(R.string.trust_apps_manager_name), () -> {
                             Intent intent = new Intent(getActivity(), TrustAppsActivity.class);
                             startActivity(intent);

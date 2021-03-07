@@ -61,6 +61,6 @@
   *;
 }
 
--keep class com.android.launcher3.pixeldust.trust.** {
+-keep class com.android.launcher3.cherish.trust.** {
   *;
 }

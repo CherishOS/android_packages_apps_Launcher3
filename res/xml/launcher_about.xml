@@ -8,7 +8,7 @@
             android:persistent="false" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/PixelDust-Project-X/android_packages_apps_Launcher3" />
+                android:data="https://github.com/CherishOS/android_packages_apps_Launcher3" />
         </Preference>
 
         <Preference

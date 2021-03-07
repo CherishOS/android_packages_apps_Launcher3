@@ -130,7 +130,7 @@ import com.android.launcher3.model.data.LauncherAppWidgetInfo;
 import com.android.launcher3.model.data.PromiseAppInfo;
 import com.android.launcher3.model.data.WorkspaceItemInfo;
 import com.android.launcher3.notification.NotificationListener;
-import com.android.launcher3.pixeldust.PixeldustUtils;
+import com.android.launcher3.cherish.CherishUtils;
 import com.android.launcher3.pm.PinRequestHelper;
 import com.android.launcher3.pm.UserCache;
 import com.android.launcher3.popup.PopupContainerWithArrow;
@@ -1085,7 +1085,7 @@ public class Launcher extends StatefulActivity<LauncherState> implements Launche
 
     public void startActivitySafelyAuth(View v, Intent intent, ItemInfo item,
             String sourceContainer) {
-        PixeldustUtils.showLockScreen(this, getString(R.string.trust_apps_manager_name_dialog), () -> {
+        CherishUtils.showLockScreen(this, getString(R.string.trust_apps_manager_name_dialog), () -> {
             startActivitySafely(v, intent, item, sourceContainer);
         });
     }

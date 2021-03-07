@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.pixeldust.launcher;
+package com.cherish.launcher;
 
 import com.android.launcher3.uioverrides.QuickstepLauncher;
 import com.android.systemui.plugins.shared.LauncherOverlayManager;
 
-public class PixeldustLauncher extends QuickstepLauncher {
+public class CherishLauncher extends QuickstepLauncher {
 
     @Override
     protected LauncherOverlayManager getDefaultOverlay() {

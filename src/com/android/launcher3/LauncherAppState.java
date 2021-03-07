@@ -35,7 +35,7 @@ import com.android.launcher3.icons.IconProvider;
 import com.android.launcher3.icons.LauncherIcons;
 import com.android.launcher3.model.PredictionModel;
 import com.android.launcher3.notification.NotificationListener;
-import com.android.launcher3.pixeldust.PixeldustUtils;
+import com.android.launcher3.cherish.CherishUtils;
 import com.android.launcher3.pm.InstallSessionHelper;
 import com.android.launcher3.pm.InstallSessionTracker;
 import com.android.launcher3.pm.UserCache;
@@ -89,7 +89,7 @@ public class LauncherAppState {
 
         mModelChangeReceiver = new SimpleBroadcastReceiver(mModel::onBroadcastIntent);
 
-        setSearchAppAvailable(PixeldustUtils.isPackageInstalled(context, Utilities.SEARCH_PACKAGE, true));
+        setSearchAppAvailable(CherishUtils.isPackageInstalled(context, Utilities.SEARCH_PACKAGE, true));
 
         mContext.getSystemService(LauncherApps.class).registerCallback(mModel);
         mModelChangeReceiver.register(mContext, Intent.ACTION_LOCALE_CHANGED,

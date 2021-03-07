@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.pixeldust.trust;
+package com.android.launcher3.cherish.trust;
 
 import android.content.ComponentName;
 import android.content.Context;
 
 import com.android.launcher3.AppFilter;
-import com.android.launcher3.pixeldust.trust.db.TrustDatabaseHelper;
+import com.android.launcher3.cherish.trust.db.TrustDatabaseHelper;
 
 @SuppressWarnings("unused")
 public class HiddenAppsFilter extends AppFilter {

@@ -64,7 +64,7 @@ import android.view.ViewTreeObserver;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.Toast;
 
-import com.android.internal.util.pixeldust.PixeldustUtils;
+import com.android.internal.util.cherish.CherishUtils;
 import com.android.launcher3.LauncherAppWidgetHost.ProviderChangedListener;
 import com.android.launcher3.accessibility.AccessibleDragListenerAdapter;
 import com.android.launcher3.accessibility.WorkspaceAccessibilityHelper;
@@ -296,7 +296,7 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
                 new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
             @Override
             public boolean onDoubleTap(MotionEvent event) {
-                PixeldustUtils.switchScreenOff(context);
+                CherishUtils.switchScreenOff(context);
                 return true;
             }
         });

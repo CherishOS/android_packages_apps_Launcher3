@@ -35,7 +35,7 @@
         android:fullBackupOnly="true"
         android:fullBackupContent="@xml/backupscheme"
         android:hardwareAccelerated="true"
-        android:icon="@mipmap/ic_pixeldust_launcher"
+        android:icon="@mipmap/ic_cherish_launcher"
         android:label="@string/derived_app_name"
         android:theme="@style/AppTheme"
         android:largeHeap="@bool/config_largeHeap"
@@ -49,7 +49,7 @@
         attributes and intent filters the same
         -->
         <activity
-            android:name="com.pixeldust.launcher.PixeldustLauncher"
+            android:name="com.cherish.launcher.cherishLauncher"
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
             android:stateNotNeeded="true"

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldust.launcher;
+package com.cherish.launcher;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
