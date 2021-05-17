@@ -64,10 +64,4 @@
         android:summary="@string/icon_pack_summary"
         android:persistent="true" />
 
-    <androidx.preference.PreferenceScreen
-        android:key="pref_developer_options"
-        android:persistent="false"
-        android:title="Developer Options"
-        android:fragment="com.android.launcher3.settings.DeveloperOptionsFragment"/>
-
 </androidx.preference.PreferenceScreen>
