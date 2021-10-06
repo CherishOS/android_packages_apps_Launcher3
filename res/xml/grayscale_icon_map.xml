@@ -100,6 +100,8 @@
     <icon drawable="@drawable/calculator" package="com.miui.calculator" name="Calculator" />
     <icon drawable="@drawable/calculator" package="com.oneplus.calculator" name="Calculator" />
     <icon drawable="@drawable/calculator" package="com.sec.android.app.popupcalculator" name="Calculator" />
+    <icon drawable="@array/grayscale_calendar_icons" package="com.google.android.calendar" />
+    <icon drawable="@array/grayscale_clock_icons" package="com.google.android.deskclock" />
     <icon drawable="@drawable/camera" package="app.grapheneos.camera.play" name="Camera" />
     <icon drawable="@drawable/camera" package="com.hmdglobal.app.camera" name="Camera" />
     <icon drawable="@drawable/camera" package="app.grapheneos.camera" name="Camera" />
