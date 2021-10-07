@@ -155,6 +155,7 @@ android_library {
         "iconloader_base",
         "libGoogleFeed",
         "SettingsLib",
+        "monet",
         "view_capture"
     ],
     manifest: "AndroidManifest-common.xml",
