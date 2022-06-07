@@ -328,6 +328,7 @@ public class Launcher extends StatefulActivity<LauncherState> implements Launche
 
     // UI and state for the overview panel
     private View mOverviewPanel;
+    private View quickSpace;
 
     @Thunk
     boolean mWorkspaceLoading = true;
@@ -1260,7 +1261,7 @@ public class Launcher extends StatefulActivity<LauncherState> implements Launche
         // Until the workspace is bound, ensure that we keep the wallpaper offset locked to the
         // default state, otherwise we will update to the wrong offsets in RTL
         mWorkspace.lockWallpaperToDefaultPage();
-        mWorkspace.bindAndInitFirstWorkspaceScreen();
+        mWorkspace.bindAndInitFirstWorkspaceScreen(null /* recycled qsb */);
         mDragController.addDragListener(mWorkspace);
 
         // Get the search/delete/uninstall bar

@@ -38,12 +38,7 @@
         android:paddingRight="4dp"
         android:textColor="?workspaceTextColor"
         android:textSize="@dimen/quickspace_title_size"
-        android:letterSpacing="0.02"
-        launcher:ambientShadowBlur="3dp"
-        launcher:ambientShadowColor="?workspaceAmbientShadowColor"
-        launcher:keyShadowBlur="2dp"
-        launcher:keyShadowColor="?workspaceKeyShadowColor"
-        launcher:keyShadowOffset="0.5dip" />
+        android:letterSpacing="0.02" />
 
     <LinearLayout
         android:id="@+id/weather_content"
@@ -76,11 +71,6 @@
             android:drawablePadding="6dp"
             android:textColor="?workspaceTextColor"
             android:textSize="@dimen/quickspace_title_size"
-            android:letterSpacing="0.02"
-            launcher:ambientShadowBlur="3dp"
-            launcher:ambientShadowColor="?workspaceAmbientShadowColor"
-            launcher:keyShadowBlur="2dp"
-            launcher:keyShadowColor="?workspaceKeyShadowColor"
-            launcher:keyShadowOffset="0.5dip" />
+            android:letterSpacing="0.02" />
     </LinearLayout>
 </LinearLayout>

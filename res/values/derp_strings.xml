@@ -20,33 +20,33 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string-array translatable="false" name="welcome_message_variants">
-        <item>Thank you for choosing riceDroid</item>
-        <item>Nasaaan ang sabaw!!!????</item>
-        <item>Get x Riced</item>
-        <item>Have a great day</item>
-        <item>Stan Twice!</item>
-        <item>#GetRiced</item>
-        <item>We love you 243</item>
-        <item>Unli rice pleassee!</item>
-        <item>Y r u always at ur homescreen</item>
-        <item>Hmmm got games?</item>
+        <item>#GetRiced &#127834;</item>
+        <item>#Calamares &#129425;</item>
+        <item>#GetHungry &#127858;</item>
+        <item>#StanTwice &#127853;</item>
+        <item>#GrabASneaker &#127851;</item>
+        <item>#StanViviz &#129418;</item>
+        <item>#UnliRice &#127834;</item>
+        <item>&#127925; Rice to the Moon - Martins Bruno</item>
+        <item>&#127925; Love the way u rice - Rihoney x Menime</item>
+        <item>&#127925; Natirang gone - 9 Gloc</item>
+        <item>&#127925; Legends nevern\'t rice - Against the Curry</item>
     </string-array>
-
-    <!-- Quickspace PSA - Custom messages for the glance -->
-    <string name="quickspace_psa_title">Show a random message</string>
-    <string name="quickspace_psa_summary">Show some nice messages sometimes on At a Glance.</string>
 
     <string-array name="quickspace_psa_morning">
         <item>Good morning!</item>
-        <item>Good morning, gamer!</item>
+        <item>Good morning my friend!</item>
         <item>What a beautiful day!</item>
         <item>Have a nice day!</item>
+        <item>Good morning beauty/handsome! - not an automated message</item>
         <item>What about a small 5 minutes nap?</item>
         <item>That\'s one way to wake up.</item>
         <item>You should change your alarm sounds.</item>
         <item>Looks like it\'s a beautiful day, isn\'t it?</item>
         <item>Let\'s get this bread.</item>
         <item>Check the weather just in case</item>
+        <item>I\'m not alexa, swipe to the left for Google Feed!</item>
+        <item>The weather for today is.. oh wait i don\'t have weatherclient &#128557;</item>
         <item>Feeling a bit sleepy yet</item>
         <item>Have you looked outside yet?</item>
         <item>Let\'s get this done.</item>
@@ -64,46 +64,43 @@
         <item>Time to charge the batteries!</item>
         <item>Tomorrow might be a great day</item>
         <item>Get your bones ready for tomorrow</item>
+        <item>Wala na, finish na.</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
-        <item>Um... good night?</item>
+        <item>Um... good mornight?</item>
+        <item>You sure like coffee...</item>
         <item>It\'s a bit late now</item>
+        <item>Have you ever think about space at this time?</item>
+        <item>Sleep is for the weak!</item>
         <item>You should fix your sleep schedule</item>
         <item>Are you more productive at this time?</item>
     </string-array>
     <string-array name="quickspace_psa_random">
-        <item>It do be like that sometimes</item>
-        <item>Is it time to flash another ROM already?</item>
-        <item>Hyped about Android 12?</item>
-        <item>Oh hey, what\'s up?</item>
-        <item>Time to brag my #setup</item>
-        <item>How many screenshots do you take?</item>
-        <item>Is your device derped?</item>
-        <item>I wish I could use VoLTE</item>
-        <item>Have fun!</item>
-        <item>Let\'s get this grind, gamer!</item>
-        <item>\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD</item>
-        <item>You need Derp Launcher Premium to see this</item>
-        <item>Remember the lineage of the unicorn</item>
-        <item>A carbonized owl statue</item>
-        <item>...cause 404 sucks</item>
-        <item>Eat your veggies and send logs</item>
-        <item>Oh no, it\'s updog again</item>
-        <item>I\'ve come to make an announcement</item>
-        <item>What is a kang?</item>
-        <item>How is everything going?</item>
-        <item>How to cherry-pick correctly?</item>
-        <item>Thank you for your support</item>
-        <item>Are you guys really giving us &quot;teasers&quot; about adding paid features on a ROM that was free to use previously?</item>
-        <item>One of the buildbot\'s best picks</item>
-        <item>If you love an app, please, support it by purchasing it</item>
-        <item>What a lovely experience, isn\'t it?</item>
-        <item>What a buggy experience, isn\'t it?</item>
-        <item>nice</item>
-        <item>Enjoy the sunset!</item>
-        <item>Get Derped</item>
-        <item>#StayDerped</item>
-        <item>rm -rf \/</item>
+        <item>Whats up? Got some games? - your cousin</item>
+        <item>Please tap the riceDroid version at settings for me.</item>
+        <item>Where is the subdivision? - Cynthia</item>
+        <item>What the heal? - definitely not Rafaela</item>
+        <item>You\'re Road - Jenny</item>
+        <item>The clock is just pixels above me...</item>
+        <item>I don\'t have Nowplaying API &#128557; (cries in aosp)</item>
+        <item>It\'s because im an advanced thinker - A scammer</item>
+        <item>Ang bulalo sinsupsop! - Andrew E</item>
+        <item>Listen look and listen and learn - A smart woman</item>
+        <item>Life is short, make it shorter. - A guy who died yesterday</item>
+        <item>You need to buy Coco Martin to see this feature.</item>
+        <item>Thank you for flashing riceDroid!</item>
+        <item>Nasaaan ang sabaw!!!???? - Baron</item>
+        <item>Don\'t forget to eat your lunch!</item>
+        <item>If you ever feel useless, remember my way.</item>
+        <item>Momo, can i be your dog?</item>
+        <item>You like to get riced huh.</item>
+        <item>Rice Rice Baby!</item>
+        <item>If nobody loves you, i guess you\'re ugly.</item>
+        <item>Unli rice please!</item>
+        <item>Why are you always looking at your homescreen?</item>
+        <item>Hey! Hey! Please make me aesthetic!</item>
+        <item>My jungler gets killed by a frog sometimes &#128128;</item>
     </string-array>
 
+    <string name="custom_date_strings">EEE, MMM d</string>
 </resources>

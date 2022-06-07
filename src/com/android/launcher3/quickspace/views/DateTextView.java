@@ -52,17 +52,12 @@ public class DateTextView extends DoubleShadowTextView {
 
     public void reloadDateFormat(boolean forcedChange) {
         String format;
-        if (Utilities.ATLEAST_OREO) {
             if (mDateFormat == null || forcedChange) {
                 (mDateFormat = DateFormat.getInstanceForSkeleton(getContext()
-                        .getString(R.string.abbrev_wday_month_day_no_year), Locale.getDefault()))
+                        .getString(R.string.custom_date_strings), Locale.getDefault()))
                         .setContext(DisplayContext.CAPITALIZATION_FOR_STANDALONE);
             }
             format = mDateFormat.format(System.currentTimeMillis());
-        } else {
-            format = DateUtils.formatDateTime(getContext(), System.currentTimeMillis(),
-                    DateUtils.FORMAT_SHOW_WEEKDAY | DateUtils.FORMAT_SHOW_DATE | DateUtils.FORMAT_ABBREV_MONTH);
-        }
         setText(format);
         setContentDescription(format);
     }
@@ -80,9 +75,7 @@ public class DateTextView extends DoubleShadowTextView {
     }
 
     public void onVisibilityAggregated(boolean isVisible) {
-        if (Utilities.ATLEAST_OREO) {
             super.onVisibilityAggregated(isVisible);
-        }
         if (!mIsVisible && isVisible) {
             mIsVisible = true;
             registerReceiver();

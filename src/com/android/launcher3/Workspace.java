@@ -569,7 +569,7 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
      * Initializes and binds the first page
      */
     public void bindAndInitFirstWorkspaceScreen(View quickSpace) {
-        iif (!Utilities.showQuickspace(getContext())) {
+        if (!Utilities.showQuickspace(getContext())) {
             return;
         }
 

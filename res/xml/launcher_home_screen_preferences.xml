@@ -50,17 +50,8 @@
             android:key="pref_show_quickspace"
             android:title="@string/show_quickspace_title"
             android:summary="@string/show_quickspace_summary"
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:persistent="true"/>
-
-        <SwitchPreference
-            android:key="pref_quickspace_psonality"
-            android:dependency="pref_show_quickspace"
-            android:summary="@string/quickspace_psa_summary"
-            android:title="@string/quickspace_psa_title"
-            android:defaultValue="true"
-            android:persistent="true" />
-
     </PreferenceCategory>
 
     <PreferenceCategory

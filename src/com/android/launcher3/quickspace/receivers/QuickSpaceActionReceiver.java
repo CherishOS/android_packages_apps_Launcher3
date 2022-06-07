@@ -39,7 +39,6 @@ public class QuickSpaceActionReceiver {
     private final LauncherApps mLauncherApps;
 
     public OnClickListener mCalendarClickListener;
-    public OnClickListener mWeatherClickListener;
 
     public QuickSpaceActionReceiver(Context context) {
         mContext = context;
@@ -49,13 +48,6 @@ public class QuickSpaceActionReceiver {
             @Override
             public void onClick(View view) {
                 openGoogleCalendar(view);
-            }
-        };
-
-        mWeatherClickListener = new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openGoogleWeather(view);
             }
         };
     }
@@ -68,29 +60,14 @@ public class QuickSpaceActionReceiver {
                 .setData(appendPath.build())
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);
         try {
-            Launcher.getLauncher(mContext).startActivitySafely(view, addFlags, null, null);
+            Launcher.getLauncher(mContext).startActivitySafely(view, addFlags, null);
         } catch (ActivityNotFoundException ex) {
             mLauncherApps.startAppDetailsActivity(new ComponentName("com.google.android.googlequicksearchbox", ""), Process.myUserHandle(), null, null);
         }
     }
 
-    private void openGoogleWeather(View view) {
-        Intent intent = new Intent("android.intent.action.VIEW");
-        intent.setData(Uri.parse("dynact://velour/weather/ProxyActivity"));
-        intent.setComponent(new ComponentName("com.google.android.googlequicksearchbox", "com.google.android.apps.gsa.velour.DynamicActivityTrampoline"));
-        try {
-            Launcher.getLauncher(mContext).startActivitySafely(view, intent, null, null);
-        } catch (ActivityNotFoundException ex) {
-            mLauncherApps.startAppDetailsActivity(new ComponentName("com.google.android.googlequicksearchbox",
-                    "com.google.android.apps.gsa.velour.DynamicActivityTrampoline"), Process.myUserHandle(), null, null);
-        }
-    }
 
     public OnClickListener getCalendarAction() {
         return mCalendarClickListener;
-    }
-
-    public OnClickListener getWeatherAction() {
-        return mWeatherClickListener;
     }
 }
