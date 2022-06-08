@@ -48,9 +48,14 @@ public class QuickEventsController {
     // PSA + Personality
     private String[] mPSAMorningStr;
     private String[] mPSAEvenStr;
+    private String[] mPSAAfterNoonStr;
     private String[] mPSAMidniteStr;
     private String[] mPSARandomStr;
-    private String[] mPSATitleStr;
+    private String[] mPSAMorningStrT;
+    private String[] mPSAEvenStrT;
+    private String[] mPSAAfterNoonStrT;
+    private String[] mPSAMidniteStrT;
+    private String[] mPSARandomStrT;
     private BroadcastReceiver mPSAListener = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -91,7 +96,7 @@ public class QuickEventsController {
     public void psonalityEvent() {
         if (!mRunning) return;
         
-        mEventTitle = mContext.getResources().getStringArray(R.array.welcome_message_variants)[getLuckyNumber(0,10)];
+        mEventTitle = mContext.getResources().getStringArray(R.array.welcome_message_variants)[getLuckyNumber(0,6)];
         mEventTitleSub = mContext.getResources().getStringArray(R.array.quickspace_psa_random)[getLuckyNumber(0,22)];
         mEventSubIcon = R.drawable.ic_quickspace_derp;
 
@@ -111,8 +116,15 @@ public class QuickEventsController {
         mPSAMorningStr = mContext.getResources().getStringArray(R.array.quickspace_psa_morning);
         mPSAEvenStr = mContext.getResources().getStringArray(R.array.quickspace_psa_evening);
         mPSAMidniteStr = mContext.getResources().getStringArray(R.array.quickspace_psa_midnight);
+        mPSAAfterNoonStr = mContext.getResources().getStringArray(R.array.quickspace_psa_noon);
         mPSARandomStr = mContext.getResources().getStringArray(R.array.quickspace_psa_random);
+        mPSAMorningStrT = mContext.getResources().getStringArray(R.array.quickspace_psa_morning_title);
+        mPSAEvenStrT = mContext.getResources().getStringArray(R.array.quickspace_psa_evening_title);
+        mPSAMidniteStrT = mContext.getResources().getStringArray(R.array.quickspace_psa_midnight_title);
+        mPSAAfterNoonStrT = mContext.getResources().getStringArray(R.array.quickspace_psa_noon_title);
+        mPSARandomStrT = mContext.getResources().getStringArray(R.array.quickspace_psa_random_title);
         int psaLength;
+        int psaLengthT;
 
         // Clean the onClick event to avoid any weird behavior
         mEventTitleSubAction = new OnClickListener() {
@@ -124,24 +136,40 @@ public class QuickEventsController {
 
         switch (Calendar.getInstance().get(Calendar.HOUR_OF_DAY)) {
             case 5: case 6: case 7: case 8: case 9: case 10:
+                psaLengthT = mPSAMorningStrT.length - 1;
+                mEventTitle = mPSAMorningStrT[getLuckyNumber(0, psaLengthT)];
                 psaLength = mPSAMorningStr.length - 1;
                 mEventTitleSub = mPSAMorningStr[getLuckyNumber(0, psaLength)];
                 mEventSubIcon = R.drawable.ic_quickspace_morning;
                 break;
 
             case 18: case 19: case 20: case 21: case 22: case 23:
+                psaLengthT = mPSAEvenStrT.length - 1;
+                mEventTitle = mPSAEvenStrT[getLuckyNumber(0, psaLengthT)];
                 psaLength = mPSAEvenStr.length - 1;
                 mEventTitleSub = mPSAEvenStr[getLuckyNumber(0, psaLength)];
                 mEventSubIcon = R.drawable.ic_quickspace_evening;
                 break;
 
+             case 15: case 16: case 17:
+                psaLengthT = mPSAAfterNoonStrT.length - 1;
+                mEventTitle = mPSAAfterNoonStrT[getLuckyNumber(0, psaLengthT)];
+                psaLength = mPSAAfterNoonStr.length - 1;
+                mEventTitleSub = mPSAAfterNoonStr[getLuckyNumber(0, psaLength)];
+                mEventSubIcon = R.drawable.ic_quickspace_noon;
+                break;
+
             case 0: case 1: case 2: case 3: case 4:
+                psaLengthT = mPSAMidniteStrT.length - 1;
+                mEventTitle = mPSAMidniteStrT[getLuckyNumber(0, psaLengthT)];
                 psaLength = mPSAMidniteStr.length - 1;
                 mEventTitleSub = mPSAMidniteStr[getLuckyNumber(0, psaLength)];
                 mEventSubIcon = R.drawable.ic_quickspace_midnight;
                 break;
                 
-            case 11: case 12: case 13: case 14: case 15: case 16: case 17:
+            case 11: case 12: case 13: case 14: 
+                psaLengthT = mPSARandomStrT.length - 1;
+                mEventTitle = mPSARandomStrT[getLuckyNumber(0, psaLengthT)];
                 psaLength = mPSARandomStr.length - 1;
                 mEventTitleSub = mPSARandomStr[getLuckyNumber(0, psaLength)];
                 mEventSubIcon = R.drawable.ic_quickspace_derp;

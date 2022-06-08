@@ -21,6 +21,6 @@
 <resources>
 
     <!-- QuickSpace -->
-    <dimen name="quickspace_title_size">24dp</dimen>
+    <dimen name="quickspace_title_size">20sp</dimen>
 
 </resources>
