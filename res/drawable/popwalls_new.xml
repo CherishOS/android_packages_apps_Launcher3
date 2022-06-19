@@ -7,7 +7,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <path
         android:fillColor="#00ffffff"
-        android:pathData="M165.86,34.24Q127.05,42.00,96.00,18.71Q64.95,42.00,26.14,34.24C16.16,116.30,62.73,169.53,96.00,173.29C129.27,169.53,175.84,116.30,165.86,34.24"
+        android:pathData="M103.49,120.61C180.92,133.00,189.52,3.96,79.56,26.77L79.07,129.67C82.08,181.17,30.09,175.05,30.09,144.47C30.09,120.00,48.87,120.43,72.13,119.49"
         android:strokeColor="#ff000000"
         android:strokeWidth="12.0"
         android:strokeLineCap="round"

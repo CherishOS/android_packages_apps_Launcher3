@@ -7,10 +7,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <path
         android:fillColor="#00ffffff"
-        android:pathData="M165.86,34.24Q127.05,42.00,96.00,18.71Q64.95,42.00,26.14,34.24C16.16,116.30,62.73,169.53,96.00,173.29C129.27,169.53,175.84,116.30,165.86,34.24"
+        android:pathData="M140.47,36.18L140.47,14.22L124.61,14.22C107.69,15.61,86.91,17.09,81.19,63.43L58.06,64.02L58.06,84.26L81.26,84.26L51.53,132.21L71.74,132.12L58.43,171.13L125.22,112.70L91.83,112.70L111.48,85.35L121.87,68.99L125.33,64.02L105.74,63.80C105.02,39.21,114.85,36.03,140.47,36.18z"
         android:strokeColor="#ff000000"
         android:strokeWidth="12.0"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round"
+        android:strokeLineCap="square"
+        android:strokeLineJoin="miter"
         android:fillType="nonZero" />
 </vector>
