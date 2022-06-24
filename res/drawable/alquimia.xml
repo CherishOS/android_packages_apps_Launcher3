@@ -7,7 +7,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <path
         android:fillColor="#00ffffff"
-        android:pathData="M24.00,61.10L61.05,24.51L58.75,167.65L24.36,167.65L24.00,61.10z"
+        android:pathData="M22.04,171.32Q57.42,160.43,98.24,171.32Q131.86,158.51,169.68,171.50"
         android:strokeColor="#ff000000"
         android:strokeWidth="12.0"
         android:strokeLineCap="round"
@@ -15,7 +15,7 @@
         android:fillType="nonZero" />
     <path
         android:fillColor="#00ffffff"
-        android:pathData="M61.52,24.35L132.08,24.47L168.00,60.37L61.42,59.49"
+        android:pathData="M96.00,165.10Q131.38,158.45,172.21,169.33L172.21,55.02Q145.53,46.62,131.08,49.37"
         android:strokeColor="#ff000000"
         android:strokeWidth="12.0"
         android:strokeLineCap="round"
@@ -23,7 +23,7 @@
         android:fillType="nonZero" />
     <path
         android:fillColor="#00ffffff"
-        android:pathData="M132.00,60.01L132.07,167.61L167.49,167.50L168.00,60.68"
+        android:pathData="M96.00,104.75L96.00,165.10Q55.18,158.45,19.79,169.33L19.79,55.02Q46.47,46.62,60.92,49.37"
         android:strokeColor="#ff000000"
         android:strokeWidth="12.0"
         android:strokeLineCap="round"
@@ -31,7 +31,7 @@
         android:fillType="nonZero" />
     <path
         android:fillColor="#00ffffff"
-        android:pathData="M60.41,98.49L130.76,97.67"
+        android:pathData="M105.57,22.80L105.57,51.50Q128.03,64.12,113.54,86.13L78.46,86.13Q63.97,64.12,86.43,51.50L86.43,22.80"
         android:strokeColor="#ff000000"
         android:strokeWidth="12.0"
         android:strokeLineCap="round"
@@ -39,7 +39,7 @@
         android:fillType="nonZero" />
     <path
         android:fillColor="#00ffffff"
-        android:pathData="M60.53,132.24L130.42,132.24"
+        android:pathData="M77.20,20.50L114.80,20.50"
         android:strokeColor="#ff000000"
         android:strokeWidth="12.0"
         android:strokeLineCap="round"

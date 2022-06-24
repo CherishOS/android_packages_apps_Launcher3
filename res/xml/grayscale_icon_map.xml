@@ -3545,13 +3545,81 @@
     <icon
         drawable="@drawable/open_vpn"
         name="OpenVPN Connect"
-        package="net.openvpn.unified.MainActivity" />
-    <icon
-        drawable="@drawable/open_vpn"
-        name="OpenVPN Connect"
         package="net.openvpn.openvpn" />
     <icon
         drawable="@drawable/rootactivitylauncher"
         name="Activitylauncher"
         package="de.szalkowski.activitylauncher" />
+    <icon
+        drawable="@drawable/alquimia"
+        name="Alquimia"
+        package="com.ilyin.alchemy" />
+    <icon
+        drawable="@drawable/florisboard"
+        name="FlorisBoard"
+        package="dev.patrickgold.florisboard" />
+    <icon
+        drawable="@drawable/revanced"
+        name="YouTube Revanced"
+        package="app.revanced.android.youtube" />
+    <icon
+        drawable="@drawable/acrobat"
+        name="Adobe Acrobat"
+        package="com.adobe.reader" />
+    <icon
+        drawable="@drawable/brawl_stars"
+        package="com.supercell.brawlstars"
+        name="Brawl Stars" />
+    <icon
+        drawable="@drawable/brave_beta"
+        package="com.brave.browser_beta"
+        name="Brave Beta" />
+    <icon
+        drawable="@drawable/brave_nightly"
+        package="com.brave.browser_nightly"
+        name="Brave Nightly" />
+    <icon
+        drawable="@drawable/clash_royale"
+        name="Clash Royale"
+        package="com.supercell.clashroyale" />
+    <icon
+        drawable="@drawable/howl"
+        name="Howl"
+        package="com.looker.howlmusic" />
+    <icon
+        drawable="@drawable/kuro_reader"
+        name="Kuro Reader"
+        package="br.com.kurotoshiro.leitor_manga" />
+    <icon
+        drawable="@drawable/libretube"
+        package="com.github.libretube"
+        name="LibreTube" />
+    <icon
+        drawable="@drawable/muviz"
+        name="Muviz"
+        package="com.perfectapps.muviz" />
+    <icon
+        drawable="@drawable/openboard"
+        name="OpenBoard"
+        package="org.dslul.openboard.inputmethod.latin" />
+    <icon
+        drawable="@drawable/proshot"
+        name="ProShot"
+        package="com.riseupgames.proshot2" />
+    <icon
+        drawable="@drawable/health"
+        name="Samsung Health"
+        package="com.sec.android.app.shealth" />
+    <icon
+        drawable="@drawable/stokie"
+        name="STOKiE"
+        package="com.harry.stokie" />
+    <icon
+        drawable="@drawable/attapoll"
+        name="AttaPoll"
+        package="com.requapp.requ" />
+    <icon
+        drawable="@drawable/camera"
+        name="Camera"
+        package="com.GoogleCamera.B10CL4P" />
 </icons>
