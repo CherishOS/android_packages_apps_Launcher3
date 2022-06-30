@@ -45,10 +45,6 @@
         name="ActionDash"
         package="com.actiondash.playstore" />
     <icon
-        drawable="@drawable/adaway"
-        name="Adaway"
-        package="Org.adaway" />
-    <icon
         drawable="@drawable/adm"
         name="ADM"
         package="com.dv.adm" />
@@ -2589,10 +2585,6 @@
         package="com.moonvideo.android.resso"
         name="Resso" />
     <icon
-        drawable="@drawable/rethinkdns"
-        package="Com.celzero.bravedns"
-        name="RethinkDNS" />
-    <icon
         drawable="@drawable/retro_music"
         name="Retro Music"
         package="code.name.monkey.retromusic" />
@@ -3521,27 +3513,32 @@
         name="ÖBB"
         package="at.oebb.ts" />
     <icon
-        drawable="@drawable/wild_rift"
-        package="com.riotgames.league.wildrift" />
-    <icon
         drawable="@drawable/samsung_music"
         package="org.lineageos.eleven" />
     <icon
-        drawable="@drawable/calendar_simple"
+        drawable="@drawable/calendar"
         name="Calendar"
         package="com.google.android.calendar" />
     <icon
-        drawable="@drawable/calendar_simple"
+        drawable="@drawable/calendar"
         name="Calendar"
         package="com.android.calendar" />
     <icon
-        drawable="@drawable/clock_simple"
+        drawable="@drawable/clock"
         name="Clock"
         package="com.google.android.deskclock" />
     <icon
-        drawable="@drawable/clock_simple"
+        drawable="@drawable/clock"
         name="Clock"
         package="com.android.deskclock" />
+    <icon
+        drawable="@drawable/clock"
+        name="Clock"
+        package="com.sec.android.app.clockpackage" />
+    <icon
+        drawable="@drawable/clock"
+        name="Clock"
+        package="com.coloros.alarmclock" />
     <icon
         drawable="@drawable/open_vpn"
         name="OpenVPN Connect"
@@ -3622,4 +3619,148 @@
         drawable="@drawable/camera"
         name="Camera"
         package="com.GoogleCamera.B10CL4P" />
+    <icon
+        drawable="@drawable/calendar"
+        name="Calendar"
+        package="com.samsung.android.calendar" />
+    <icon
+        drawable="@drawable/dreamdroid"
+        name="dreamDroid"
+        package="net.reichholf.dreamdroid" />
+    <icon
+        drawable="@drawable/ella"
+        name="Ella"
+        package="rocks.poopjournal.Ella" />
+    <icon
+        drawable="@drawable/fxxxs_given"
+        name="F***s Given"
+        package="rocks.poopjournal.fucksgiven" />
+    <icon
+        drawable="@drawable/finance_assist"
+        name="Finance Assist"
+        package="com.antcorp.moneyflow" />
+    <icon
+        drawable="@drawable/flashy"
+        name="Flashy"
+        package="rocks.poopjournal.flashy" />
+    <icon
+        drawable="@drawable/flycast"
+        name="Flycast"
+        package="com.flycast.emulator" />
+    <icon
+        drawable="@drawable/game_space"
+        name="Game Space"
+        package="com.coloros.gamespaceui" />
+    <icon
+        drawable="@drawable/greenify"
+        name="Greenify"
+        package="com.oasisfeng.greenify" />
+    <icon
+        drawable="@drawable/imms"
+        name="IMMS Digital"
+        package="st.android.imsspublico" />
+    <icon
+        drawable="@drawable/mastodon"
+        name="Mastodon"
+        package="org.joinmastodon.android" />
+    <icon
+        drawable="@drawable/mercado_libre"
+        name="Mercado Libre"
+        package="com.mercadolibre" />
+    <icon
+        drawable="@drawable/metadata_remover"
+        name="Metadata Remover"
+        package="rocks.poopjournal.metadataremover" />
+    <icon
+        drawable="@drawable/morse"
+        name="Morse"
+        package="rocks.poopjournal.morse" />
+    <icon
+        drawable="@drawable/niagara"
+        package="bitpit.launcher"
+        name="Niagara Launcher" />
+    <icon
+        drawable="@drawable/pulse_music"
+        name="Pulse Music"
+        package="com.hardcodecoder.pulse" />
+    <icon
+        drawable="@drawable/project_themer"
+        name="Project Themer"
+        package="com.drsants.eggproject" />
+    <icon
+        drawable="@drawable/quickvpn"
+        name="QuickVPN"
+        package="com.lipisoft.quickvpn" />
+    <icon
+        drawable="@drawable/tix"
+        name="TIX ID"
+        package="id.tix.android" />
+    <icon
+        drawable="@drawable/to_dont"
+        name="To Donʼt"
+        package="rocks.poopjournal.todont" />
+    <icon
+        drawable="@drawable/vacation_days"
+        name="Vacation Days"
+        package="rocks.poopjournal.vacationdays" />
+    <icon
+        drawable="@drawable/weatherbug"
+        name="WeatherBug"
+        package="com.aws.android" />
+    <icon
+        drawable="@drawable/lol"
+        package="com.riotgames.league.wildrift"
+        name="Wild Rift" />
+    <icon
+        drawable="@drawable/xmanager"
+        name="xManager"
+        package="com.xc3fff0e.xmanager" />
+    <icon
+        drawable="@drawable/you_tv"
+        name="You TV Player"
+        package="my.player.android.pro" />
+    <icon
+        drawable="@drawable/adaway"
+        name="Adaway"
+        package="org.adaway" />
+    <icon
+        drawable="@drawable/rethinkdns"
+        package="com.celzero.bravedns"
+        name="RethinkDNS" />
+    <icon
+        drawable="@drawable/antutu"
+        name="AnTuTu Benchmark"
+        package="com.antutu.benchmark.full" />
+    <icon
+        drawable="@drawable/discord"
+        name="Discord"
+        package="com.bluecord" />
+    <icon
+        drawable="@drawable/instagram"
+        name="Instagram"
+        package="com.instander.android" />
+    <icon
+        drawable="@drawable/camera"
+        name="Camera"
+        package="com.mediatek.camera" />
+    <icon
+        drawable="@drawable/samsung_music"
+        name="Music"
+        package="com.heytap.music" />
+    <icon
+        drawable="@drawable/weather"
+        name="Weather"
+        package="com.noaimgames.shadowweather" />
+    <icon
+        drawable="@drawable/tapatalk_pro"
+        name="Tapatalk Pro"
+        package="com.quoord.tapatalkHD" />
+    <icon
+        drawable="@drawable/termux"
+        name="Termux"
+        package="jackpal.androidterm" />
+    <icon
+        drawable="@drawable/tiktok"
+        name="TikTok"
+        package="com.zhiliaoapp.musically.go" />
 </icons>

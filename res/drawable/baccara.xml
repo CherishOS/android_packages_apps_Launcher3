@@ -7,7 +7,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <path
         android:fillColor="#00ffffff"
-        android:pathData="M96.99,56.31L165.27,96.66L165.27,68.62Q166.00,55.25,151.90,48.70L107.41,23.58Q96.75,15.58,82.97,23.38L61.64,34.37L61.68,76.38L96.99,56.31z"
+        android:pathData="M96.30,46.56C123.41,46.56,145.39,68.54,145.39,95.66C145.39,122.77,123.41,144.75,96.30,144.75C69.19,144.75,47.22,122.77,47.22,95.66C47.22,68.54,69.19,46.56,96.30,46.56z"
         android:strokeColor="#ff000000"
         android:strokeWidth="12.0"
         android:strokeLineCap="round"
@@ -15,7 +15,7 @@
         android:fillType="nonZero" />
     <path
         android:fillColor="#00ffffff"
-        android:pathData="M165.27,97.74L165.27,121.47Q165.35,137.35,152.81,143.02L107.63,168.99Q97.19,176.25,83.86,168.36L60.18,156.10L130.30,115.51L130.30,77.47"
+        android:pathData="M96.19,87.37C100.72,87.37,104.38,91.04,104.38,95.56C104.38,100.09,100.72,103.75,96.19,103.75C91.67,103.75,88.00,100.09,88.00,95.56C88.00,91.04,91.67,87.37,96.19,87.37z"
         android:strokeColor="#ff000000"
         android:strokeWidth="12.0"
         android:strokeLineCap="round"
@@ -23,7 +23,7 @@
         android:fillType="nonZero" />
     <path
         android:fillColor="#00ffffff"
-        android:pathData="M60.48,35.04L35.24,50.68Q27.01,56.13,26.82,68.34L26.76,122.21Q25.76,135.50,39.18,143.28L59.79,155.87"
+        android:pathData="M86.30,94.33C41.70,79.28,75.75,39.13,96.19,85.16C113.77,38.87,148.72,73.82,106.12,93.58C152.83,111.07,116.86,152.18,97.81,103.60C75.75,152.18,44.92,116.21,86.30,94.33z"
         android:strokeColor="#ff000000"
         android:strokeWidth="12.0"
         android:strokeLineCap="round"
@@ -31,7 +31,7 @@
         android:fillType="nonZero" />
     <path
         android:fillColor="#00ffffff"
-        android:pathData="M61.76,76.76L61.61,114.64L95.73,135.31"
+        android:pathData="M136.01,135.36C137.24,183.93,57.82,183.93,56.59,135.36C7.62,134.38,6.59,54.97,56.59,55.95C56.59,8.30,136.01,8.30,136.01,55.95C183.61,57.12,185.76,136.51,136.01,135.36z"
         android:strokeColor="#ff000000"
         android:strokeWidth="12.0"
         android:strokeLineCap="round"
