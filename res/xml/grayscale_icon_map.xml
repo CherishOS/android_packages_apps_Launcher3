@@ -3763,4 +3763,12 @@
         drawable="@drawable/tiktok"
         name="TikTok"
         package="com.zhiliaoapp.musically.go" />
+    <icon
+        drawable="@drawable/ic_aide"
+        name="AIDE"
+        package="com.aide.ui" />
+    <icon
+        drawable="@drawable/ic_jyp"
+        name="SuperStar JYP"
+        package="com.dalcomsoft.ss.jyp" />
 </icons>
