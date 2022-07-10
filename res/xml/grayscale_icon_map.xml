@@ -3771,4 +3771,192 @@
         drawable="@drawable/ic_jyp"
         name="SuperStar JYP"
         package="com.dalcomsoft.ss.jyp" />
+    <icon
+        drawable="@drawable/youtube_kids"
+        name="YouTube Kids"
+        package="com.google.android.apps.youtube.kids" />
+    <icon
+        drawable="@drawable/alpha_backup"
+        name="Alpha Backup Pro"
+        package="com.ruet_cse_1503050.ragib.appbackup.pro" />
+    <icon
+        drawable="@drawable/alpha_backup"
+        name="Alpha Backup Pro"
+        package="com.ruet_cse_1503050.ragib.appbackup" />
+    <icon
+        drawable="@drawable/amdroid"
+        package="com.amdroidalarmclock.amdroid"
+        name="AMdroid" />
+    <icon
+        drawable="@drawable/aria2app"
+        name="Aria2App"
+        package="com.gianlu.aria2app" />
+    <icon
+        drawable="@drawable/bussines_suite"
+        name="Business Suite"
+        package="com.facebook.pages.app" />
+    <icon
+        drawable="@drawable/cellmapper"
+        package="cellmapper.net.cellmapper"
+        name="Cellmapper" />
+    <icon
+        drawable="@drawable/dante"
+        name="Dante"
+        package="at.shockbytes.dante" />
+    <icon
+        drawable="@drawable/dinero_viettel"
+        name="Dinero Viettel"
+        package="com.bplus.vtpay" />
+    <icon
+        drawable="@drawable/empty_folder_cleaner"
+        name="Empty Folder Cleaner"
+        package="com.rootify.emptyfoldercleaner" />
+    <icon
+        drawable="@drawable/feeder"
+        name="Feeder"
+        package="eu.faircode.email" />
+    <icon
+        drawable="@drawable/flightradar24"
+        package="com.flightradar24free"
+        name="Flightradar24" />
+    <icon
+        drawable="@drawable/free_download_manager"
+        package="org.freedownloadmanager.fdm"
+        name="Free Download Manager" />
+    <icon
+        drawable="@drawable/geizhals"
+        package="at.geizhals.pv"
+        name="Geizhals" />
+    <icon
+        drawable="@drawable/google_buds"
+        name="Google Buds"
+        package="com.google.android.apps.wearables.maestro.companion" />
+    <icon
+        drawable="@drawable/inshorts"
+        name="Inshorts"
+        package="com.nis.app" />
+    <icon
+        drawable="@drawable/kids_space"
+        name="Kids Space"
+        package="com.google.android.apps.kids.home" />
+    <icon
+        drawable="@drawable/koloro"
+        name="Koloro"
+        package="com.cerdillac.persetforlightroom" />
+    <icon
+        drawable="@drawable/lichess"
+        name="Lichess"
+        package="org.lichess.mobileapp" />
+    <icon
+        drawable="@drawable/livechart_me"
+        name="LiveChart.me"
+        package="me.livechart.android" />
+    <icon
+        drawable="@drawable/mi_buds"
+        name="Mi Buds M8"
+        package="bz.zaa.mibudsm8" />
+    <icon
+        drawable="@drawable/microsoft_lens"
+        name="Microsoft Lens"
+        package="com.microsoft.office.officelens" />
+    <icon
+        drawable="@drawable/mobiles_bezahlen"
+        package="com.s_payment.mobiles_bezahlen"
+        name="Mobiles Bezahlen" />
+    <icon
+        drawable="@drawable/mvgo"
+        package="de.mvg.more"
+        name="MVGO" />
+    <icon
+        drawable="@drawable/notenapp"
+        package="com.notenapp"
+        name="Notenapp" />
+    <icon
+        drawable="@drawable/nova_videoplayer"
+        package="org.courville.nova"
+        name="Nova Video Player" />
+    <icon
+        drawable="@drawable/octoapp"
+        package="de.crysxd.octoapp"
+        name="OctoApp" />
+    <icon
+        drawable="@drawable/organic_maps"
+        name="Organic Maps"
+        package="app.organicmaps" />
+    <icon
+        drawable="@drawable/pccloud"
+        name="pCloud"
+        package="com.pcloud.pcloud" />
+    <icon
+        drawable="@drawable/quickedit"
+        name="QuickEdit"
+        package="com.rhmsoft.edit.pro" />
+    <icon
+        drawable="@drawable/rar"
+        name="RAR"
+        package="com.rarlab.rar" />
+    <icon
+        drawable="@drawable/rr3"
+        name="Real Racing 3"
+        package="com.ea.games.r3_row" />
+    <icon
+        drawable="@drawable/s_pushtan"
+        package="com.starfinanz.mobile.android.pushtan"
+        name="S-pushTAN" />
+    <icon
+        drawable="@drawable/schulmanager"
+        package="online.schulmanager.app"
+        name="Schulmanager" />
+    <icon
+        drawable="@drawable/slide_reddit"
+        package="me.ccrama.redditslide"
+        name="Slide" />
+    <icon
+        drawable="@drawable/sms_backup_restore"
+        name="SMS Backup Restore"
+        package="com.riteshsahu.SMSBackupRestore" />
+    <icon
+        drawable="@drawable/solarweb"
+        package="com.fronius.solarweb"
+        name="Solar.web" />
+    <icon
+        drawable="@drawable/sparkasse"
+        package="com.starfinanz.smob.android.sfinanzstatus"
+        name="Sparkasse" />
+    <icon
+        drawable="@drawable/upnote"
+        name="UpNote"
+        package="com.getupnote.android" />
+    <icon
+        drawable="@drawable/uno"
+        name="UNO!"
+        package="com.matteljv.uno" />
+    <icon
+        drawable="@drawable/v2rayng"
+        name="V2rayNG"
+        package="com.v2ray.ang" />
+    <icon
+        drawable="@drawable/vimpay"
+        package="net.petafuel.mobile.vimpay"
+        name="Vimpay" />
+    <icon
+        drawable="@drawable/wayback_machine"
+        package="com.archive.waybackmachine"
+        name="Wayback Machine" />
+    <icon
+        drawable="@drawable/wear"
+        package="com.samsung.android.app.watchmanager"
+        name="Samsung Wear" />
+    <icon
+        drawable="@drawable/wetter_online"
+        package="de.wetteronline.wetterapp"
+        name="Wetter Online" />
+    <icon
+        drawable="@drawable/wetter_online"
+        package="de.wetteronline.wetterapppro"
+        name="Wetter Online" />
+    <icon
+        drawable="@drawable/you"
+        name="You Browser"
+        package="com.you.browser" />
 </icons>
