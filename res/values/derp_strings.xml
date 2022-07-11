@@ -20,10 +20,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string-array translatable="false" name="welcome_message_variants">
-        <item>#GetCherished &#127834;</item>
-        <item>#LetEsteem &#129425;</item>
-        <item>#KeepTheLove &#127858;</item>
-        <item>#KeepTheHope &#127834;</item>
+        <item>#GetCherished &#128150;</item>
+        <item>#LetEsteem &#128144;</item>
+        <item>#KeepTheLove &#128149;</item>
+        <item>#KeepTheHope &#128140;</item>
         <item>&#128191; Cherish the Love - The Katinas</item>
         <item>&#128191; Mother is diary - Thuc Anh</item>
         <item>&#128191; Take me to your heart - Michael Learns to Rock</item>
@@ -172,16 +172,17 @@
         <item>#AsLongAsShallLive &#127834;</item>
     </string-array>
     <string-array name="quickspace_psa_noon_title">
-        <item>#KeepTheLove &#127834;</item>
+        <item>#KeepTheLove &#128149;</item>
         <item>&#128191; Twice - The Feels</item>
         <item>&#128191; Bastille - Pompeii </item>
         <item>&#128191; American Authors - Best Day Of My Life</item>
         <item>&#128191; Lalisa - Money</item>
         <item>&#128191; Imagine Dragons - On Top Of The World</item>
-        <item>#Grandparents &#127751;</item>
-        <item>#Pathers &#127834;</item>
-        <item>#Brother &#128081;</item>
-        <item>#Sister &#9729;&#65039;</item>
+        <item>#TakeCareOfGrandparents &#128106;</item>
+        <item>#TakeCareOfPathers &#127834;</item>
+        <item>#TakeCareOfBrother &#127751;</item>
+        <item>#TakeCareOfSister &#128109;&#128106;</item>
+		<item>#TakeCareOfFamily &#9729;&#128106;</item>
         <item>#KeepThisLove &#127751;</item>
     </string-array>
     <string-array name="quickspace_psa_early_evening_title">
@@ -196,7 +197,7 @@
         <item>#EatRice4Dinner &#127769;</item>
     </string-array>
     <string-array name="quickspace_psa_evening_title">
-        <item>#KeepTheHope &#127769;</item>
+        <item>#KeepTheHope &#128140;</item>
         <item>&#128191; 911 - I do!</item>
         <item>&#128191; SonTungMTP - There is no one at all! </item>
         <item>&#128191; Twice - Dance the Night Away</item>
