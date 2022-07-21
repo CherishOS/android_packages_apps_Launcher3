@@ -51,7 +51,7 @@
         <item>The weather for today is.. idk</item>
         <item>Feeling a bit sleepy yet</item>
         <item>Have you looked outside yet?</item>
-        <item>Glance: Keep The Love!</item>
+        <item>Keep The Love!</item>
         <item>Let\'s get this done.</item>
     </string-array>
     <string-array name="quickspace_psa_noon">
@@ -86,12 +86,12 @@
         <item>Its not bad to watch some news isn\'t it?</item>
         <item>The eve comes!</item>
         <item>Hey charge me already!</item>
-        <item>If you\'re aren\'t tired, well I am.</item>
-        <item>A good BULALO soup seems nice.</item>
-        <item>Where iss thee sauccee!!!???</item>
-        <item>Cup noodles is good for your health.. hey its sarcasm btw</item>
-        <item>Health Glance: Don\'t forget to drink water!</item>
-        <item>Health Glance: Don\'t forget to eat your dinner!</item>
+        <item>Tonight if you are free.</item>
+        <item>Let spent time to go outside and do fun with friends.</item>
+        <item>Hey! Tea time</item>
+        <item>Friendship is the shadow of the evening, which increases with the setting sun of life!</item>
+        <item>Don\'t think bad buddy</item>
+        <item>Be grateful to everyone</item>
         <item>The day is almost done. Good job surviving!</item>
         <item>You are amazing, now take some rest!</item>
         <item>How\'s your day?</item>
@@ -155,6 +155,8 @@
         <item>Why are you always looking at your homescreen?</item>
         <item>The weather is nice today.</item>
         <item>Let go out..</item>
+		 <item>So, baby, pull me closer</item>
+		 <item>We are not ever getting older</item>
         <item>Life is short, make it shorter.</item>
     </string-array>
 
@@ -186,15 +188,15 @@
         <item>#KeepThisLove &#127751;</item>
     </string-array>
     <string-array name="quickspace_psa_early_evening_title">
-        <item>#MoonRice &#127769;</item>
+        <item>#Dinner &#127769;</item>
         <item>&#128191; My way - Presley Elvis</item>
         <item>&#128191; Pop! - Nayeon </item>
         <item>&#128191; Two Less Lonely People in the world - Supply Air</item>
         <item>&#128191; Nickelback - This Afternoon</item>
         <item>&#128191; Afternoon - Youth Lagoon</item>
         <item>#GoodEve &#127769;</item>
-        <item>#Dinner &#127775;</item>
-        <item>#EatRice4Dinner &#127769;</item>
+        <item>#FunWithFriends &#127775;</item>
+        <item>#SeeMovie &#127769;</item>
     </string-array>
     <string-array name="quickspace_psa_evening_title">
         <item>#KeepTheHope &#128140;</item>
