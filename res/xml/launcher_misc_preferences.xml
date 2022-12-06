@@ -36,7 +36,7 @@
         android:max="175"
         android:min="0"
         settings:units="px"
-        android:defaultValue="23" />
+        android:defaultValue="65" />
 
     <com.android.launcher3.settings.preference.RestartPreference
         android:key="pref_restart"
