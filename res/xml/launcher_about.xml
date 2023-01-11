@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.preference.PreferenceScreen 
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:settings="http://schemas.android.com/apk/res-auto">
+
         
     <PreferenceCategory 
         android:title="@string/about_thanks_cat" >
@@ -7,20 +10,32 @@
         <Preference
             android:key="about_credit01"
             android:title="Lawnchair team"
+            android:icon="@drawable/ic_android_version"
+            settings:layout="@layout/arc_card_about"
             android:persistent="false"
-            android:selectable="false">
+            android:selectable="true">
+            <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/LawnchairLauncher" />
         </Preference>
 
         <Preference
             android:key="about_credit01"
             android:title="LineageOS"
+            android:icon="@drawable/ic_android_version"
+            settings:layout="@layout/arc_card_about"
             android:persistent="false"
-            android:selectable="false">
+            android:selectable="true">
+            <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/LineageOS" />
         </Preference>
 
         <Preference
             android:key="about_credit01"
             android:title="Amir Zaidi (Shade Launcher)"
+            android:icon="@drawable/ic_android_version"
+            settings:layout="@layout/arc_card_about"
             android:persistent="false"
             android:selectable="false">
         </Preference>
@@ -28,22 +43,49 @@
         <Preference
             android:key="about_credit01"
             android:title="Bootleggers ROM"
+            android:icon="@drawable/ic_android_version"
+            settings:layout="@layout/arc_card_about"
             android:persistent="false"
-            android:selectable="false">
+            android:selectable="true">
+            <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/BootleggersROM" />
+        </Preference>
+
+        <Preference
+            android:key="about_credit01"
+            android:title="Corvus-AOSP team"
+            android:icon="@drawable/ic_android_version"
+            settings:layout="@layout/arc_card_about"
+            android:persistent="false"
+            android:selectable="true">
+            <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/Corvus-R" />
         </Preference>
 
         <Preference
             android:key="about_credit01"
             android:title="crDroid team"
+            android:icon="@drawable/ic_android_version"
+            settings:layout="@layout/arc_card_about"
             android:persistent="false"
-            android:selectable="false">
+            android:selectable="true">
+            <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/crdroidandroid" />
         </Preference>
 
         <Preference
             android:key="about_credit01"
             android:title="Derpfest team"
+            android:icon="@drawable/ic_android_version"
+            settings:layout="@layout/arc_card_about"
             android:persistent="false"
-            android:selectable="false">
+            android:selectable="true">
+            <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/Derpfest-12" />
         </Preference>
         
         <Preference
