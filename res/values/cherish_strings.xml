@@ -209,14 +209,15 @@
 
     <!-- QuickSpace: QuickEvent: Device Intro Event -->
     <string name="quick_event_rom_intro_welcome" translatable="false">Welcome to Cherish!</string>
+    <string name="quick_event_rom_intro_welcome_ext" translatable="false">Something NEW!</string>
     <string-array name="welcome_message_variants" translatable="false">
         <item>Have a great day!</item>
-        <item>Thank you for flashing Cherish!</item>
-        <item>Loving us? Send us a soju!</item>
+        <item>Thank you for flashing</item>
+        <item>Loving us? Send me a rootbeer!</item>
         <item>We\'re not the best, but at least we try!</item>
-        <item>Share us on twitter! #gtrcd</item>
         <item>Tap here to begin</item>
-        <item>We love it when you enjoy Cherish!</item>
+        <item>Enjoy our OS!</item>
+        <item>Explore Goodies</item>
     </string-array>
 
     <!-- QuickSpace: QuickEvent: Greetings -->
@@ -320,42 +321,6 @@
         <item>Please take care of yourself.</item>
     </string-array>
     <string-array name="quickspace_psa_random">
-<<<<<<< HEAD
-        <item>Ignorance is Bliss</item>
-        <item>Is it time to flash another update already?</item>
-        <item>Make peace, not war</item>
-        <item>Oh hey, what\'s up?</item>
-        <item>Focus on your tasks</item>
-        <item>How many screenshots do you take?</item>
-        <item>Open goodness with Cherish</item>
-        <item>Spread love, not havoc</item>
-        <item>We didn\'t start the fire!</item>
-        <item>Time for some good music</item>
-        <item>\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD</item>
-        <item>You need Cherish Premium to see this</item>
-        <item>Remember the Lineage of the Unicorn</item>
-        <item>Enjoy Xtended battery life</item>
-        <item>Starting from the ground zero</item>
-        <item>We love you 3000</item>
-        <item>Delicious even without Sushi</item>
-        <item>Do something nice today</item>
-        <item>This is best Pixel Experience, isn\'t it?</item>
-        <item>How is everything going?</item>
-        <item>No illusions, welcome to reality!</item>
-        <item>Thank you for your support</item>
-        <item>No festival for Derps - only perfection!</item>
-        <item>One of the buildbot\'s best picks</item>
-        <item>Sanity for your Paranoia</item>
-        <item>Try Ice Cold desserts</item>
-        <item>What a lovely experience, isn\'t it?</item>
-        <item>Evolution is a myth, right?</item>
-        <item>You are what you flash, don\'t be Potato</item>
-        <item>What\'s on your mind?</item>
-        <item>Expecto Patronum</item>
-        <item>Wubba Lubba Dub Dub</item>
-        <item>Winner Winner ....?</item>
-        <item>rm -rf \/</item>
-=======
         <item>There are easter eggs hidden on this ROM.</item>
         <item>Try checking the weather settings.</item>
         <item>Try to avoid UV rays during noon.</item>
@@ -379,7 +344,6 @@
         <item>Always bring water to stay hydrated.</item>
         <item>Space smells like seared steak..</item>
         <item>Enjoy your day!</item>
->>>>>>> 316fe577b0 (SushiLauncher: Rework at a glance view for QPR1)
     </string-array>
 
     <!-- QuickSpace: QuickEvent: Weather -->
