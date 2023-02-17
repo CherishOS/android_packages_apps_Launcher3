@@ -144,13 +144,14 @@
     <string name="quickspace_date_format_minimalistic" translatable="false">EEEE, MMM d</string>
 
     <!-- QuickSpace: QuickEvent: Device Intro Event -->
-    <string name="quick_event_rom_intro_welcome" translatable="false">Welcome to cherish!</string>
+    <string name="quick_event_rom_intro_welcome" translatable="false">Welcome to CherishOS!</string>
+    <string name="quick_event_rom_intro_welcome_ext" translatable="false">CherishOS time!</string>
     <string-array name="welcome_message_variants" translatable="false">
+        <item>What a beautiful day!!</item>
         <item>Have a great day!</item>
-        <item>Thank you for flashing cherish!</item>
-        <item>Loving us? Send us a soju!</item>
+        <item>Loving us? Send me a rootbeer!</item>
         <item>We\'re not the best, but at least we try!</item>
-        <item>Share us on twitter! #gtrcd</item>
+        <item>Share us on telegram! #KeeptoLove</item>
         <item>Tap here to begin</item>
         <item>We love it when you enjoy cherish!</item>
     </string-array>
@@ -256,29 +257,29 @@
         <item>Please take care of yourself.</item>
     </string-array>
     <string-array name="quickspace_psa_random">
-        <item>There are easter eggs hidden on this ROM.</item>
-        <item>Try checking the weather settings.</item>
-        <item>Try to avoid UV rays during noon.</item>
-        <item>Stay Hydrated!</item>
-        <item>Pringles aren\'t actually potato chips..</item>
-        <item>Laughing can increase bloodflow.</item>
-        <item>Coffee contains antioxidants.</item>
-        <item>Ketchup was once sold as medicine.</item>
-        <item>Cotton candy was invented by a dentist.</item>
-        <item>Don\'t skip your meal!</item>
-        <item>Remember to check device\'s battery levels!</item>
-        <item>Check your email/messages.</item>
-        <item>Check your to-do list if you have one.</item>
-        <item>You can disable quickspace via home settings.</item>
-        <item>Go get them!</item>
-        <item>Time to buy some rice!</item>
-        <item>Time for lunch!</item>
-        <item>Kalamay is made of glutinous rice.</item>
-        <item>All white rice starts brown.</item>
-        <item>Want some soda?</item>
-        <item>Always bring water to stay hydrated.</item>
-        <item>Space smells like seared steak..</item>
-        <item>Enjoy your day!</item>
+        <item>Let is take a walk together near the ocean shore.</item>
+        <item>Hand in hand you and I</item>
+        <item>Let is cherish every moment we have been given</item>
+        <item>The time is passing by</item>
+        <item>I often pray before I lay down by your side</item>
+        <item>If you receive your calling before I awake...</item>
+        <item>Could I make it through the night </item>
+        <item>Cherish the love we have</item>
+        <item>We should cherish the life we live.</item>
+        <item>Cherish the love!</item>
+        <item>Cherish the life!!!</item>
+        <item>For as long as we both shall live!</item>
+        <item>The world is always changing.</item>
+        <item>Nothing stays the same</item>
+        <item>But love will stand the test of time.</item>
+        <item>The next life that we live in!</item>
+        <item>Remains to be seen.</item>
+        <item>Why are you always looking at your homescreen?</item>
+        <item>The weather is nice today.</item>
+        <item>Let go out..</item>
+		<item>So, baby, pull me closer</item>
+		<item>We are not ever getting older</item>
+        <item>Life is short, make it shorter.</item>
     </string-array>
     
     <!-- Suggestions -->
