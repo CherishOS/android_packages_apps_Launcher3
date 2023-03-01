@@ -227,6 +227,10 @@ public class PageIndicatorDots extends View implements Insettable, PageIndicator
             }
         } else {
             int scrollPerPage = totalScroll / (mNumPages - 1);
+            if (scrollPerPage == 0) {
+                return;
+            }
+
             int pageToLeft = scrollPerPage == 0 ? 0 : currentScroll / scrollPerPage;
             int pageToLeftScroll = pageToLeft * scrollPerPage;
             int pageToRightScroll = pageToLeftScroll + scrollPerPage;
