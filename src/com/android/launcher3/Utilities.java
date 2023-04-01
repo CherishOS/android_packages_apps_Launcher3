@@ -954,7 +954,7 @@ public final class Utilities {
     }
 
     public static boolean isActionToastEnabled(Context context) {
-        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        SharedPreferences prefs = LauncherPrefs.getPrefs(context.getApplicationContext());
         return prefs.getBoolean(KEY_ACTION_TOAST_ENABLED, true);
     }
     
@@ -974,7 +974,7 @@ public final class Utilities {
     }
 
     public static boolean recentsScrollVibration(Context context) {
-    	SharedPreferences prefs = getPrefs(context.getApplicationContext());
+    	SharedPreferences prefs = LauncherPrefs.getPrefs(context.getApplicationContext());
     	return prefs.getBoolean(KEY_VIBRATION_TOGGLE, true);
    }
    
