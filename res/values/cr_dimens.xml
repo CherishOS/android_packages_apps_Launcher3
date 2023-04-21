@@ -30,4 +30,8 @@
 
     <dimen name="meminfo_bottom_margin_gesture">32dp</dimen>
     <dimen name="meminfo_bottom_margin_three_button">56dp</dimen>
+    
+    <!-- Preference style -->
+    <dimen name="card_margin_start_aqua">20dp</dimen>
+    <dimen name="card_margin_end_aqua">20dp</dimen>
 </resources>
