@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2016-2022 crDroid Android Project
+<!-- Copyright (C) 2022 The Cherish OS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -115,19 +114,21 @@
     <string name="show_quickspace_title">Xem nhanh</string>
     <string name="show_quickspace_summary">Hiển thị ở đầu màn hình chính của bạn</string>
     <!-- QuickSpace: QuickEvent: Device Intro Event -->
-    <string name="quick_event_rom_intro_welcome">Chào mừng đến với cherish!</string>
-    <string-array name="welcome_message_variants">
-        <item>Chúc một ngày tốt lành</item>
-        <item>Cảm ơn vì đã chọn chúng tôi</item>
-        <item>Yêu thích chúng tôi? Gửi cho chúng tôi một cốc bia</item>
-        <item>Rom tuyệt nhất.</item>
-        <item>Trò chuyện với chúng tôi trên Telegram</item>
-        <item>Chạm vào đây để bắt đầu</item>
-        <item>Chúng tôi yêu bạn 3000</item>
-    </string-array>
+    <!-- QuickSpace: QuickEvent: Greetings -->
+    <string name="quickspace_grt_morning">Chào buổi sáng.</string>
+    <string name="quickspace_grt_evening">Chào buổi tối.</string>
+    <string name="quickspace_grt_afternoon">Chào buổi chiều.</string>
+    <string name="quickspace_grt_night">Chúc ngủ ngon.</string>
+    <string name="quickspace_grt_midnight">Nửa đêm rồi đi ngủ đê.</string>
+    <string name="quickspace_grt_general">Ngày tốt lành.</string>
+    <string name="quickspace_ext_one">Hôm nay là</string>
+    <string name="quickspace_ext_two">Bây giờ là</string>
+    <string name="quickspace_ext_three">Bây giờ là</string>
     <!-- QuickSpace: QuickEvent: Ambient Play -->
-    <string name="quick_event_ambient_now_playing">Đang phát</string>
-    <string name="quick_event_ambient_song_artist">%1$s bởi %2$s</string>
+    <string name="qe_now_playing_unknown_artist">Nghệ sĩ không xác định</string>
+    <string name="qe_now_playing_ext_one">Đang phát</string>
+    <string name="qe_now_playing_ext_two"></string>
+    <string name="qe_now_playing_by">Bởi</string>
     <!-- Quickspace Now Playing -->
     <string name="quickspace_now_playing_title">Đang phát</string>
     <string name="quickspace_now_playing_summary">Hiển thị bài hát bạn đang phát</string>
@@ -139,18 +140,71 @@
     <string name="quickspace_psa_summary">Làm cho người bạn đồng hành của bạn trở nên sinh động hơn với những tin nhắn ngẫu nhiên</string>
     <string-array name="quickspace_psa_morning">
         <item>Chào buổi sáng!</item>
-        <item>Chào buổi sáng, đến giờ quẩy rồi!</item>
-        <item>Thật là một ngày đẹp trời!</item>
+        <item>Chào buổi sáng bạn của tôi!</item>
+        <item>Chúc một ngày tốt lành!</item>
         <item>Chúc bạn một ngày tốt lành!</item>
-        <item>Một giấc ngủ ngắn 5 phút thì sao?</item>
-        <item>Đây là cách tốt nhất để thức dậy buổi sáng nhỉ.</item>
+        <item>Tổng quan về sức khỏe: Tập thể dục một chút sẽ rất tốt</item>
+        <item>Chào buổi sáng người đẹp</item>
+        <item>Uhhh.. 5 phút nữa...</item>
+        <item>Tôi đổ sữa trước trước khi cho ngũ cốc...</item>
+        <item>Chào buổi sáng người đẹp</item>
+        <item>Thời tiết tốt, ý tôi là 32C. tin nhắn không được hỗ trợ.</item>
+        <item>Thời tiết nóng lạnh mùa đông, mùa xuân, mùa hạ hay mùa thu &#128191;</item>
+        <item>Đó là một cách để thức dậy.</item>
+        <item>Nghỉ ngơi trong hòa bình.</item>
         <item>Bạn nên thay đổi âm thanh báo thức của mình.</item>
         <item>Có vẻ như đó là một ngày đẹp trời, phải không?</item>
-        <item>Dậy ăn bánh mì thôi.</item>
-        <item>Ra ngoài nhớ mang theo dù hoặc đội mũ nha.</item>
+        <item>Hãy lấy bánh mì này.</item>
+        <item>Ra ngoài nhớ mang theo dù hoặc đội mũ nha</item>
+        <item>Tôi không phải là alexa, hãy vuốt sang trái để tìm Nguồn cấp dữ liệu Google!</item>
+        <item>Thời tiết hôm nay là.. idk</item>
         <item>Cảm thấy hơi buồn ngủ</item>
         <item>Bạn đã thử nhìn ra ngoài chưa?</item>
+        <item>Giữ tình yêu!</item>
         <item>Hoàn thành việc hôm nay của bạn đi.</item>
+    </string-array>
+    <string-array name="quickspace_psa_noon">
+        <item>Chào buổi chiều..</item>
+        <item>Bình minh sớm muộn cũng sẽ đến..</item>
+        <item>Tổng quan về sức khỏe: Hãy ở nhà!</item>
+        <item>Một lon Soda sẽ rất tốt.</item>
+        <item>Đi chạm vào một số cỏ!</item>
+        <item>Làm điều gì đó trước khi hết ngày!</item>
+        <item>Mua một số đồ ăn nhẹ khi bạn đang ở đó.</item>
+        <item>Tôi muốn mua một số siomai ngay bây giờ..</item>
+        <item>Đi ra ngoài và vui chơi!</item>
+        <item>Nếu một thời gian tốt để đi ra ngoài và ăn.</item>
+        <item>Hôm nay, bạn có vui không?</item>
+        <item>Chúng ta gần đến rồi! Cố lên!</item>
+        <item>Đi kiếm hộp cơm nào!</item>
+        <item>Thật tuyệt khi được ngủ dưới gốc cây..</item>
+        <item>Tôi thích ngắm hoàng hôn..</item>
+        <item>Bạn đã ăn bánh của bạn chưa?</item>
+        <item>Làm thế nào về một số đồ uống?</item>
+        <item>Ngủ trưa lúc đó là tốt nhất..</item>
+        <item>Thèm một số empanada..</item>
+    </string-array>
+    <string-array name="quickspace_psa_early_evening">
+        <item>Chào buổi tối!</item>
+        <item>Đêm đến rồi..</item>
+        <item>Đừng quên chuẩn bị bữa tối của bạn!</item>
+        <item>Thời gian để thư giãn và ăn khoai tây chiên.</item>
+        <item>Bạn nghĩ thế nào về việc xem một cái gì đó hoặc một bộ phim hay?</item>
+        <item>Xin chào bạn khoẻ không?</item>
+        <item>Có thể thử xem một số video trên youtube</item>
+        <item>Thật không tồi khi xem một số tin tức phải không?</item>
+        <item>Buổi tối đang đến!</item>
+        <item>Này tính tiền cho tôi đã!</item>
+        <item>Tối nay nếu bạn rảnh.</item>
+        <item>Hãy dành thời gian để ra ngoài và vui chơi với bạn bè.</item>
+        <item>Chào! thời gian uống trà</item>
+        <item>Tình bạn là bóng tối, tăng lên khi mặt trời lặn của cuộc đời!</item>
+        <item>Đừng nghĩ xấu nhé bạn</item>
+        <item>Biết ơn mọi người</item>
+        <item>Ngày gần xong. Làm tốt công việc sống sót!</item>
+        <item>Bạn thật tuyệt vời, bây giờ hãy nghỉ ngơi một chút!</item>
+        <item>Hôm nay bạn cảm thấy thế nào?</item>
+        <item>Nếu bạn thất bại ngày hôm nay, bạn có thể thất bại lần nữa vào ngày mai, hãy bình tĩnh.</item>
     </string-array>
     <string-array name="quickspace_psa_evening">
         <item>Chúc bạn ngủ ngon!</item>
@@ -161,16 +215,33 @@
         <item>Chúc bạn có một giấc ngủ ngon</item>
         <item>Ngủ một chút đi</item>
         <item>Đến giờ giải lao rồi</item>
-        <item>Tận hưởng buổi tối!</item>
+        <item>Buổi tối vui vẻ!</item>
         <item>Đã đến lúc sạc pin!</item>
         <item>Ngày mai có thể là một ngày tuyệt vời</item>
         <item>Chuẩn bị sẵn sàng cho ngày mai</item>
+        <item>Không còn nữa, nó kết thúc.</item>
+        <item>Bây giờ tôi cảm thấy buồn ngủ..</item>
+        <item>Tại sao bạn vẫn chưa ngủ?</item>
+        <item>Nghỉ ngơi trong hòa bình.</item>
+        <item>Nhảy múa suốt đêm...</item>
+        <item>Không phải mặt trăng và các vì sao tuyệt vời sao? </item>
+        <item>8 giờ ngủ là điều bắt buộc!</item>
+        <item>Có rất nhiều điều gì xảy ra trên thế giới này. Thư giãn.</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
-        <item>Ừm... chúc ngủ ngon?</item>
+        <item>Ừm... chào buổi sáng?</item>
+        <item>Bạn chắc chắn thích cà phê...</item>
         <item>Bây giờ hơi muộn</item>
+        <item>Bạn đã bao giờ nghĩ về không gian vào thời điểm này chưa?</item>
+        <item>Ngủ là dành cho kẻ yếu!</item>
         <item>Bạn nên chỉnh sửa lịch ngủ của mình</item>
-        <item>Bạn có năng suất hơn vào lúc này không?</item>
+        <item>Bạn có năng suất hơn vào thời điểm này?</item>
+        <item>RIP melatonin.. zzzz</item>
+        <item>zzzzzZZZZzzzzzz</item>
+        <item>Tôi đã có thể ngủ, nhưng bạn thì không!??</item>
+        <item>Tôi cá là bạn đã thua rất nhiều trận đấu xếp hạng. Buồn cười</item>
+        <item>Giữ gìn sức khỏe: Ngủ đủ 8 tiếng là điều bắt buộc!</item>
+        <item>Tiếp tục uống một tách cà phê, tôi sẽ liên hệ với st. Peter</item>
     </string-array>
     <string-array name="quickspace_psa_random">
         <item>Điếc không sợ súng</item>
@@ -196,17 +267,6 @@
         <item>Không ảo tưởng, chào mừng bạn đến với thực tế!</item>
         <item>Cảm ơn sự giúp đỡ của bạn</item>
         <item>Không có lễ hội cho Derps - chỉ có sự hoàn hảo!</item>
-        <item>Một trong những lựa chọn tốt nhất của buildbot</item>
-        <item>Hãy tỉnh táo chứ đừng hoang tưởng</item>
-        <item>Thử món tráng miệng đá lạnh</item>
-        <item>Thật là một trải nghiệm đáng yêu phải không?</item>
-        <item>Evolution là một huyền thoại, phải không?</item>
-        <item>Hãy nạp rom bạn muốn, đừng thử Potato</item>
-        <item>Bạn đang nghĩ gì vậy?</item>
-        <item>Tôi đang chờ một người giám hộ</item>
-        <item>Wubba Lubba Dub Dub</item>
-        <item>Người chiến thắng ....?</item>
-        <item>rm -rf \/</item>
     </string-array>
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">Đề xuất</string>
@@ -215,6 +275,8 @@
     <string name="quick_event_ambient_weather_title">Điều kiện thời tiết</string>
     <string name="quick_event_ambient_weather_summary">Hiển thị điều kiện thời tiết và nhiệt độ hiện tại</string>
     <string name="quick_event_ambient_weather_enabled_info">Yêu cầu bật dịch vụ thời tiết</string>
+    <string name="quick_event_ambient_detailed_weather_title">Điều kiện thời tiết chi tiết</string>
+    <string name="quick_event_ambient_detailed_weather_summary">Hiển thị chi tiết điều kiện thời tiết và nhiệt độ</string>
     <!-- Background opacity -->
     <string name="background_opacity_title">Độ mờ của nền</string>
     <!-- Taskbar -->
@@ -224,6 +286,7 @@
     <string name="recents_screenshot_title">Chụp màn hình</string>
     <string name="recents_clear_all_title">Xoá tất cả</string>
     <string name="recents_lens_title">Ống Kính</string>
+    <string name="recents_lock_title">Ghim ứng dụng</string>
     <!-- All apps themed icons -->
     <string name="pref_themed_icons_title">Biểu tượng theo chủ đề</string>
     <string name="pref_themed_icons_summary">Sử dụng biểu tượng theo chủ đề trên màn hình chính</string>
@@ -250,6 +313,23 @@
     <!-- Restart launcher -->
     <string name="pref_restart_title">Khởi động lại</string>
     <string name="pref_restart_summary">Khởi động lại trình khởi chạy để áp dụng các cài đặt đang chờ xử lý</string>
-    <!-- Shake Clear Recents -->
+    <string name="restarting_launcher">Đang khởi động lại trình khởi chạy...</string>
+    <!-- Shake Actions -->
     <string name="recents_shake_clear_all_title">Lắc điện thoại để xóa hết các tác vụ</string>
+    <string name="shake_gesture_actions_title">Cử chỉ lắc</string>
+    <string name="shake_gesture_actions_summart">Lắc điện thoại ở màn hình chính để bật đèn pin</string>
+    <!-- Recents Scroll Vibration -->
+    <string name="pref_recents_vibration_title">Bật phản hồi xúc giác trên cuộn gần đây</string>
+    <string name="recents_kill_app">Tắt ứng dụng</string>
+    <!-- Toast for Clear All, App Locked n Unlocked -->
+    <string name="action_toast_enabled_title">Hành động thông báo</string>
+    <string name="action_toast_enabled_summary">Bật-tắt Thông báo ngắn xóa tất cả</string>
+    <!-- QSB -->
+    <string name="qsb_search_hint">Tìm kiếm điện thoại này và hơn thế nữa…</string>
+    <!-- About info -->
+    <string name="about_thanks_cat">Trân trọng cảm ơn</string>
+    <string name="about">Thông tin</string>
+    <string name="about_summary">Thông tin về Cherish Launcher</string>
+    <string name="about_app_version">Phiên bản 2.0</string>
+    <string name="settings_category"></string>
 </resources>
