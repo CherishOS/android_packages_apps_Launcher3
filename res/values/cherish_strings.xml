@@ -186,75 +186,109 @@
     <string name="quickspace_psa_summary">Make your companion more lively with random messages</string>
 
     <string-array name="quickspace_psa_morning">
-        <item>A little walk seems nice.</item>
-        <item>Brush your teeth mindfully.</item>
-        <item>Start your day hydrated!</item>
-        <item>Get some exercise!</item>
-        <item>Stretch things out!</item>
-        <item>Start your day with positivity.</item>
-        <item>A nice morning it is!</item>
-        <item>Always check device\'s battery levels!</item>
-        <item>Don\'t forget to prepare breakfast.</item>
-        <item>Check the weather, just in case.</item>
-        <item>Don\'t forget to check your notes!</item>
-        <item>Always check your email/messages.</item>
-        <item>Check your schedule if you have one.</item>
-        <item>Good luck today!</item>
-        <item>Toggling the switch can fix stucked responses.</item>
-        <item>Start your day with any hot beverage.</item>
-        <item>Don\'t forget about protein.</item>
-        <item>Eggs make a simple, nutritious breakfast.</item>
-        <item>Enjoy your breakfast.</item>
+        <item>Good morning!</item>
+        <item>Good morning my friend!</item>
+        <item>What a beautiful day!</item>
+        <item>Have a nice day!</item>
+        <item>Health Glance: A little exercise would be nice</item>
+        <item>Good morning beauty! - not dfntly automated</item>
+        <item>Uhhh.. 5 more minutes...</item>
+        <item>I pour milk first before cereal...</item>
+        <item>Good morning handsome! -not dfntly automated</item>
+        <item>The weather is good, i mean 32C. unsupported msg.</item>
+        <item>Weather is cold hot winter,spring, summer or fall &#128191;</item>
+        <item>That\'s one way to wake up.</item>
+        <item>Rest in peace melatonin.</item>
+        <item>You should change your alarm sounds.</item>
+        <item>Looks like it\'s a beautiful day, isn\'t it?</item>
+        <item>Let\'s get this bread.</item>
+        <item>Check the weather just in case</item>
+        <item>I\'m not alexa, swipe to the left for Google Feed!</item>
+        <item>The weather for today is.. idk</item>
+        <item>Feeling a bit sleepy yet</item>
+        <item>Have you looked outside yet?</item>
+        <item>Keep The Love!</item>
+        <item>Let\'s get this done.</item>
     </string-array>
     <string-array name="quickspace_psa_noon">
-        <item>Don\'t forget to stay hydrated!</item>
-        <item>Remember to eat some snacks.</item>
-        <item>UV rays are more harmful in the afternoon.</item>
-        <item>It is afternoon right now.</item>
-        <item>Always check device\'s battery levels!</item>
-        <item>Remember to check your email/messages.</item>
-        <item>Please check your to-do list if you have one.</item>
-        <item>Don\'t forget to prepare your dinner.</item>
-        <item>Enjoy your day.</item>
-        <item>Hang on! The day is almost done!</item>
-        <item>Have some fun.</item>
+        <item>Good afternoon..</item>
+        <item>The dawn will arrive sooner or later..</item>
+        <item>Health Glance: Stay Home!</item>
+        <item>A Soda would be nice.</item>
+        <item>Go touch some grass!</item>
+        <item>Do something befor the day ends!</item>
+        <item>Get some snacks while you\'re at it.</item>
+        <item>I want to buy some siomai now..</item>
+        <item>Go out and have fun!</item>
+        <item>If a good time to go out and eat.</item>
+        <item>Did you have fun today?</item>
+        <item>We\'re almost there! Hang on!</item>
+        <item>Let\'s go for some ricebox!</item>
+        <item>It\'s nice to sleep under a tree..</item>
+        <item>I love watching the sunset..</item>
+        <item>Have you eaten your merienda?</item>
+        <item>How about some drinks?</item>
+        <item>Siesta at it\'s finest..</item>
+        <item>Craving for some empanada..</item>
     </string-array>
     <string-array name="quickspace_psa_early_evening">
-        <item>Always stay hydrated!</item>
-        <item>8 hours of sleep is a must.</item>
-        <item>It is evening right now.</item>
-        <item>Remember to full charge me before you sleep.</item>
-        <item>Remember to check your email/messages.</item>
-        <item>Please check your to-do list if you have one.</item>
-        <item>Remember to eat dinner.</item>
-        <item>Always check the lights and sockets.</item>
-        <item>Enjoy the night.</item>
-        <item>Hey there! Give yourself some rest!</item>
-        <item>Relax and do some rest.</item>
+        <item>Good Evening!</item>
+        <item>The night comes..</item>
+        <item>Don\'t forget to eat your dinner!</item>
+        <item>Time to relax and eat fries.</item>
+        <item>How about watching something a good movie?</item>
+        <item>Hello, how are you?</item>
+        <item>Maybe try watching some youtube videos</item>
+        <item>Its not bad to watch some news isn\'t it?</item>
+        <item>The eve comes!</item>
+        <item>Hey charge me already!</item>
+        <item>Tonight if you are free.</item>
+        <item>Let spent time to go outside and do fun with friends.</item>
+        <item>Hey! Tea time</item>
+        <item>Friendship is the shadow of the evening, which increases with the setting sun of life!</item>
+        <item>Don\'t think bad buddy</item>
+        <item>Be grateful to everyone</item>
+        <item>The day is almost done. Good job surviving!</item>
+        <item>You are amazing, now take some rest!</item>
+        <item>How\'s your day?</item>
+        <item>If you failed today, you can fail again tomorrow, chill.</item>
     </string-array>
     <string-array name="quickspace_psa_evening">
-        <item>Don\'t drink too much water before sleeping.</item>
-        <item>It is evening right now.</item>
-        <item>Try to avoid overnight charging if possible.</item>
-        <item>Remember to check your email/messages.</item>
-        <item>Please check your to-do list if you have one.</item>
-        <item>Remember to eat dinner.</item>
-        <item>8 hours of sleep is a must.</item>
-        <item>Enjoy the night.</item>
-        <item>Lugaw is a nice recipe for dinner.</item>
-        <item>Enjoy your sleep.</item>
+        <item>Good night!</item>
+        <item>Sleep well!</item>
+        <item>See you tomorrow!</item>
+        <item>Sweet dreams!</item>
+        <item>Don\'t stay up too long</item>
+        <item>Have a good sleep</item>
+        <item>Get some sleep</item>
+        <item>Time to relax</item>
+        <item>Enjoy the night!</item>
+        <item>Time to charge the batteries!</item>
+        <item>Tomorrow might be a great day</item>
+        <item>Get your bones ready for tomorrow</item>
+        <item>Wala na, finish na.</item>
+        <item>I\'m feeling sleepy now..</item>
+        <item>Why aren\'t you sleep yet?</item>
+        <item>Rest in peace melatonin.</item>
+        <item>Dance the night away...</item>
+        <item>Aren\'t the moon and stars amazing? </item>
+        <item>8 hours of sleep is a must!</item>
+        <item>There are many what ifs in this world. Relax.</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
-        <item>Sleep defficiency is bad for your health.</item>
-        <item>Don\'t forget to stay hydrated.</item>
-        <item>Being sleep deficit can break melatonin production.</item>
-        <item>It is midnight right now.</item>
-        <item>Sleeping late is not healthy.</item>
-        <item>You need to sleep now.</item>
-        <item>Don\'t forget to sleep/prepare your breakfast.</item>
-        <item>Enjoy the midnight.</item>
-        <item>Sleep deficiency affects your body clock.</item>
-        <item>Please take care of yourself.</item>
+        <item>Um... good mornight?</item>
+        <item>You sure like coffee...</item>
+        <item>It\'s a bit late now</item>
+        <item>Have you ever think about space at this time?</item>
+        <item>Sleep is for the weak!</item>
+        <item>You should fix your sleep schedule</item>
+        <item>Are you more productive at this time?</item>
+        <item>RIP melatonin.. zzzz</item>
+        <item>zzzzzZZZZzzzzzz</item>
+        <item>I was able to sleep, but you weren\'t!??</item>
+        <item>I bet you lost a lot of ranked matches. LMAO</item>
+        <item>Health Glance: 8 hours of sleep is a must!</item>
+        <item>Go ahead drink a cup of coffee, i\'ll contact st. Peter</item>
     </string-array>
     <string-array name="quickspace_psa_random">
         <item>Let is take a walk together near the ocean shore.</item>
