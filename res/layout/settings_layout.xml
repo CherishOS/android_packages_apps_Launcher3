@@ -13,7 +13,7 @@
         android:layout_height="wrap_content">
         <ImageView
             android:id="@android:id/icon"
-            android:tint="@*android:color/accent_device_default"
+            android:tint="@color/m3_ref_palette_blue80"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="center" />

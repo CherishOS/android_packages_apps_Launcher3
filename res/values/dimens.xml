@@ -585,4 +585,14 @@
     <!-- App Title Pill -->
     <dimen name="app_title_pill_horizontal_padding">4dp</dimen>
     <dimen name="app_title_pill_round_rect_padding">2dp</dimen>
+
+    <!-- Dashboard image tile size -->
+    <dimen name="dashboard_tile_image_size">40dp</dimen>
+
+    <!-- Dashboard foreground image size -->
+    <dimen name="dashboard_tile_foreground_image_size">24dp</dimen>
+
+    <!-- Dashboard foreground image inset (from background edge to foreground edge) -->
+    <dimen name="dashboard_tile_foreground_image_inset">8dp</dimen>
+
 </resources>
