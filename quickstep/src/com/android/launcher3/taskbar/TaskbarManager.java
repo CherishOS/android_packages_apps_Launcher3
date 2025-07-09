@@ -248,6 +248,7 @@ public class TaskbarManager implements DisplayDecorationListener {
         recreateTaskbars();
     };
 
+    private final SettingsCache.OnChangeListener mOnTaskBarChangeListener = c -> System.exit(0);
     private PerceptibleTaskListener mTaskStackListener;
 
     private class PerceptibleTaskListener implements TaskStackChangeListener {
